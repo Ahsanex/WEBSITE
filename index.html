@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SR Solar Solutions | Solar Support & Panel Cleaning</title>
+    <meta
+      name="description"
+      content="SR Solar Solutions provides customer care support, under-24-hour troubleshooting, and professional solar panel cleaning services."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="SR Solar Solutions home">
+        <span class="brand-mark">SR</span>
+        <span>
+          <strong>SR Solar Solutions</strong>
+          <small>Care. Cleaning. Uptime.</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#support">Support</a>
+        <a href="#cleaning">Cleaning</a>
+        <a href="#booking">Book</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="icon-button" href="tel:+917905151736" aria-label="Call SR Solar Solutions">
+          <span aria-hidden="true">Call</span>
+        </a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobileMenu" data-menu-button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" data-mobile-menu>
+      <a href="#support">Customer care support</a>
+      <a href="#cleaning">Solar panel cleaning</a>
+      <a href="#booking">Book a callback</a>
+      <a href="#faq">Questions</a>
+    </div>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Solar customer care and panel cleaning</p>
+          <h1 id="hero-title"><span>SR Solar</span><span>Solutions</span></h1>
+          <p class="hero-text">
+            Dedicated support for solar owners. We handle customer care, troubleshoot service issues under 24 hours,
+            and clean solar panels with a trained, reliable team.
+          </p>
+
+          <div class="hero-actions" aria-label="Contact SR Solar Solutions">
+            <a class="button primary" href="tel:+917905151736">Call +91 7905151736</a>
+            <a class="button secondary" href="tel:+919696270255">Call +91 9696270255</a>
+            <button class="button ghost" type="button" data-open-modal>Request callback</button>
+          </div>
+
+          <div class="hero-metrics" aria-label="Service highlights">
+            <div>
+              <strong>24 hrs</strong>
+              <span>Troubleshooting target</span>
+            </div>
+            <div>
+              <strong>2 lines</strong>
+              <span>Direct support contacts</span>
+            </div>
+            <div>
+              <strong>Good team</strong>
+              <span>Panel cleaning crew</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <img src="assets/sr-solar-team-call.png" alt="SR Solar Solutions team cleaning rooftop solar panels">
+          <div class="quick-card" aria-label="Fast support message">
+            <strong>Need help now?</strong>
+            <span>Call, WhatsApp, or request a callback. We track the issue and assign the right support.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="support-band" id="support" aria-labelledby="support-title">
+        <div class="section-heading">
+          <p class="eyebrow">Customer care support</p>
+          <h2 id="support-title">A clear response path for every solar issue.</h2>
+          <p>
+            From inverter faults to low generation, wiring alerts, shutdowns, and routine care, SR Solar Solutions
+            gives customers one place to call and one team to follow up.
+          </p>
+        </div>
+
+        <div class="support-grid">
+          <article class="service-card active" data-service-card="support">
+            <span class="service-icon">01</span>
+            <h3>Customer care desk</h3>
+            <p>Friendly support for calls, questions, complaints, service requests, and follow-up updates.</p>
+          </article>
+          <article class="service-card" data-service-card="troubleshooting">
+            <span class="service-icon">02</span>
+            <h3>Under 24 hrs troubleshooting</h3>
+            <p>We record the issue, guide first checks, and work to complete troubleshooting within 24 hours.</p>
+          </article>
+          <article class="service-card" data-service-card="cleaning">
+            <span class="service-icon">03</span>
+            <h3>Good cleaning team</h3>
+            <p>Careful solar panel cleaning by a trained team that protects glass, frames, and wiring.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="interactive-zone" aria-label="Interactive service dashboard">
+        <div class="dashboard-copy">
+          <p class="eyebrow">Service dashboard</p>
+          <h2>Choose your need. Get the next step instantly.</h2>
+          <p>
+            Select the service type and panel count to preview how SR Solar Solutions can respond. The callback
+            message updates automatically, so customers can share the exact requirement quickly.
+          </p>
+
+          <div class="service-tabs" role="tablist" aria-label="Service types">
+            <button class="tab active" type="button" role="tab" aria-selected="true" data-tab="fault">Fault support</button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-tab="clean">Panel cleaning</button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-tab="care">Annual care</button>
+          </div>
+
+          <div class="tab-panel" data-tab-panel>
+            <h3>Fault support</h3>
+            <p>Best for inverter alarms, low generation, system shutdown, meter alerts, or wiring checks.</p>
+          </div>
+        </div>
+
+        <form class="booking-panel" id="booking" aria-label="Callback request builder">
+          <div class="panel-header">
+            <span>Callback builder</span>
+            <strong data-response-label>Under 24 hrs</strong>
+          </div>
+
+          <div class="field">
+            <label for="serviceType">Your requirement</label>
+            <select id="serviceType" name="serviceType">
+              <option value="Solar fault troubleshooting">Solar fault troubleshooting</option>
+              <option value="Solar panel cleaning">Solar panel cleaning</option>
+              <option value="Customer care support">Customer care support</option>
+              <option value="Regular solar maintenance">Regular solar maintenance</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="panelCount">Number of panels</label>
+            <input id="panelCount" name="panelCount" type="range" min="4" max="80" step="2" value="20">
+          </div>
+
+          <div class="range-output">
+            <span><strong data-panel-output>20</strong> panels</span>
+            <span data-cleaning-note>Recommended: full surface wash and frame check.</span>
+          </div>
+
+          <div class="field">
+            <label for="customerName">Name</label>
+            <input id="customerName" name="customerName" type="text" autocomplete="name" placeholder="Your name">
+          </div>
+
+          <div class="field">
+            <label for="customerArea">Area / city</label>
+            <input id="customerArea" name="customerArea" type="text" autocomplete="address-level2" placeholder="Your area">
+          </div>
+
+          <div class="field">
+            <label for="problemText">Problem details</label>
+            <textarea id="problemText" name="problemText" rows="4" placeholder="Tell us what happened"></textarea>
+          </div>
+
+          <div class="booking-actions">
+            <a class="button primary" href="#" data-whatsapp-link>Send on WhatsApp</a>
+            <button class="button secondary" type="button" data-open-modal>Ask for callback</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="cleaning-section" id="cleaning" aria-labelledby="cleaning-title">
+        <div class="cleaning-visual">
+          <img src="assets/sr-solar-panel-cleaning.png" alt="SR Solar Solutions team washing solar panels">
+        </div>
+
+        <div class="cleaning-copy">
+          <p class="eyebrow">Solar panel cleaning</p>
+          <h2 id="cleaning-title">Clean panels, safer service, better generation.</h2>
+          <p>
+            Dust, bird droppings, hard water marks, leaves, and pollution can reduce panel output. Our team uses
+            careful cleaning methods and checks the visible condition of panels during the visit.
+          </p>
+
+          <div class="check-list">
+            <span>Soft washing for glass surface care</span>
+            <span>Frame, clamp, and visible wiring observation</span>
+            <span>Before and after status updates for customers</span>
+            <span>Service follow-up through customer care support</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline-section" aria-labelledby="timeline-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">How support works</p>
+          <h2 id="timeline-title">A simple four-step service flow.</h2>
+        </div>
+
+        <div class="timeline">
+          <button class="timeline-step active" type="button" data-step="0">
+            <span>1</span>
+            <strong>Call received</strong>
+          </button>
+          <button class="timeline-step" type="button" data-step="1">
+            <span>2</span>
+            <strong>Issue diagnosed</strong>
+          </button>
+          <button class="timeline-step" type="button" data-step="2">
+            <span>3</span>
+            <strong>Team assigned</strong>
+          </button>
+          <button class="timeline-step" type="button" data-step="3">
+            <span>4</span>
+            <strong>Follow-up done</strong>
+          </button>
+        </div>
+
+        <div class="timeline-detail" data-timeline-detail>
+          Share your issue on call or WhatsApp. Our customer care support records the details and starts the service flow.
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Questions</p>
+          <h2 id="faq-title">Quick answers for customers.</h2>
+        </div>
+
+        <div class="faq-list">
+          <details open>
+            <summary>Do you provide customer care support?</summary>
+            <p>Yes. SR Solar Solutions provides customer care support for solar service requests, issues, cleaning, and follow-up.</p>
+          </details>
+          <details>
+            <summary>How fast is troubleshooting done?</summary>
+            <p>We work to complete troubleshooting under 24 hours after the issue is registered with the support team.</p>
+          </details>
+          <details>
+            <summary>Who cleans the solar panels?</summary>
+            <p>Solar panel cleaning is handled by a good, trained team that takes care of panel glass, frames, and visible wiring.</p>
+          </details>
+          <details>
+            <summary>How do I contact SR Solar Solutions?</summary>
+            <p>Call the main number +91 7905151736 or the secondary number +91 9696270255. You can also use the WhatsApp button on this website.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>SR Solar Solutions</strong>
+        <span>Customer care support + solar panel cleaning</span>
+      </div>
+      <div class="footer-actions">
+        <a href="tel:+917905151736">Main: +91 7905151736</a>
+        <a href="tel:+919696270255">Secondary: +91 9696270255</a>
+      </div>
+    </footer>
+
+    <div class="contact-dock is-hidden" aria-label="Quick contact">
+      <a href="tel:+917905151736">Call</a>
+      <a href="#" data-whatsapp-link>WhatsApp</a>
+    </div>
+
+    <dialog class="callback-modal" data-modal>
+      <form method="dialog">
+        <button class="close-modal" type="button" aria-label="Close callback form" data-close-modal>&times;</button>
+        <p class="eyebrow">Callback request</p>
+        <h2>Talk to SR Solar Solutions</h2>
+        <p>Call either support number or send the prepared WhatsApp message with your service details.</p>
+        <div class="modal-actions">
+          <a class="button primary" href="tel:+917905151736">Call +91 7905151736</a>
+          <a class="button secondary" href="tel:+919696270255">Call +91 9696270255</a>
+          <a class="button ghost" href="#" data-whatsapp-link>Open WhatsApp</a>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
